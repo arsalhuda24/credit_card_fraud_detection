@@ -8,3 +8,5 @@ This repository contains end-end machine learning based solution for detecting f
 ### Business Problem
 
 It is imperative for credit card companies and banks to detect fradulent transaction as early as possible. In this work we use the credit card fraud detection data provided by kaggle competion and build a robust model that can capture these transactions. At the end we will deploy this model for realtime fraud detection.  
+
+### Data Preprocessing
