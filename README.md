@@ -28,3 +28,5 @@ The problem of fraud detection falls into the domain of anomaly identification w
 3) Minimum Covariance Determinant 
 4) Local Outlier Factor
 5) Local Correlation Integral (LOCI)
+
+#### One-Class SVM
