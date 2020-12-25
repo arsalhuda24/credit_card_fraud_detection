@@ -21,6 +21,8 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 2) We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/feature_importance.png)
+
+
 3) Since we found that V10, V14 and V12 appear to be most important features. Lets visualize their distributions and box plots to identify any outliers. 
 
 
