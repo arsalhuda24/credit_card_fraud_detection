@@ -25,6 +25,7 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 
 3) Since we found that V10, V14 and V12 appear to be most important features. Lets visualize their distributions and box plots to identify any outliers. 
 
+![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers.png)
 
 
 ### Model Building
