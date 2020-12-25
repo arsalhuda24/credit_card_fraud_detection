@@ -18,7 +18,10 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 
 ### Data Preprocessing
 1) First we observe that this data is highly imbalanced where 99.83% of the transactions are non-fradulent and only 0.17% are fradulent transactions. 
-2) We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem.  
+2) We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem. 
+
+![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/feauter_importance.png)
+
 
 ### Model Building
 The problem of fraud detection falls into the domain of anomaly identification where the legal transactions are termed as normal while fradulent ones as anomalies. There are number of ML techniques that we will test/evaluate and then carry out a thorough comparision to pick the best model.
