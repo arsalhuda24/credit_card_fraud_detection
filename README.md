@@ -17,22 +17,23 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 
 
 ### Data Preprocessing
-1) First we observe that this data is highly imbalanced where 99.83% of the transactions are non-fradulent and only 0.17% are fradulent transactions. Lets see how the t-sne visualization looks for the entire dataset. 
-#### T-SNE Visualization
+First we observe that this data is highly imbalanced where 99.83% of the transactions are non-fradulent and only 0.17% are fradulent transactions. Lets see how the t-sne visualization looks for the entire dataset. 
+#### 1) T-SNE Visualization
 t-SNE takes a high-dimensional dataset and reduces it to a low-dimensional graph that retains a lot of the original information. t-SNE measures the euclidean distance between two points and then plots that distance on a normal curve that is centered on the point of interest. Lastly, it takes the distance between point 2 and where it is on the normal curve.
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/t_sne.png)
 
-
-2) We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem. 
+#### 2) Skewed Features
+We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/feature_importance.png)
 
-
-3) Since we found that V10, V14 and V12 appear to be most important features. Lets visualize their distributions and box plots to identify any outliers. 
+#### 3) Feature Importance
+Since we found that V10, V14 and V12 appear to be most important features. Lets visualize their distributions and box plots to identify any outliers. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers.png)
 
+#### 4) Outlier Removal
 4) after removing the outliers we can visualize the box plots again. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers_removal.png)
