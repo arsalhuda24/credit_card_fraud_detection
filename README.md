@@ -32,6 +32,7 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers_removal.png)
 
 #### T-SNE plots
+t-SNE takes a high-dimensional dataset and reduces it to a low-dimensional graph that retains a lot of the original information. t-SNE measures the euclidean distance between two points and then plots that distance on a normal curve that is centered on the point of interest. Lastly, it takes the distance between point 2 and where it is on the normal curve.
 
 
 ### Model Building
