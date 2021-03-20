@@ -31,6 +31,8 @@ Fraud detection systems are prune to many difficulties. An efficient system shou
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers_removal.png)
 
+#### T-SNE plots
+
 
 ### Model Building
 The problem of fraud detection falls into the domain of anomaly identification where the legal transactions are termed as normal while fradulent ones as anomalies. There are number of ML techniques that we will test/evaluate and then carry out a thorough comparision to pick the best model.
