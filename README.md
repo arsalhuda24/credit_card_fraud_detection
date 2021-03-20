@@ -23,18 +23,17 @@ t-SNE takes a high-dimensional dataset and reduces it to a low-dimensional graph
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/t_sne.png)
 
-#### 2) Skewed Features
+#### 2) Feature Importance
 We also observe that there are some features which are highly skewed (eg Transaction_Amount). This needs to be avoided if we want our models to be interpretable. We will explore different techqniques (eg log-transformation) to take care of this problem. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/feature_importance.png)
 
-#### 3) Feature Importance
+#### 3) Outlier Removal
 Since we found that V10, V14 and V12 appear to be most important features. Lets visualize their distributions and box plots to identify any outliers. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers.png)
 
-#### 4) Outlier Removal
-4) after removing the outliers we can visualize the box plots again. 
+after removing the outliers we can visualize the box plots again. 
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/outliers_removal.png)
 
