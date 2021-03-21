@@ -48,3 +48,4 @@ The problem of fraud detection falls into the domain of anomaly identification w
 5) Local Correlation Integral (LOCI)
 
 #### One-Class SVM
+A One-Class Support Vector Machine is an unsupervised learning algorithm that is trained only on the ‘normal’ data, in our case the negative examples. It learns the boundaries of these points and is therefore able to classify any points that lie outside the boundary as, you guessed it, outliers.
