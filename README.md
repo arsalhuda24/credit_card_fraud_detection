@@ -52,3 +52,6 @@ A One-Class Support Vector Machine is an unsupervised learning algorithm that is
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/predictions.png)
 
+##### Setup Kafka
+follow this link to setup kafka on ubuntu 16.04 
+https://tecadmin.net/install-apache-kafka-ubuntu/
