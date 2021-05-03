@@ -5,6 +5,21 @@ This repository contains end-end machine learning based solution for detecting f
 
 ![Model](https://github.com/arsalhuda24/credit_card_fraud_detection/blob/main/machine_learning_project_lifecycle.bmp)
 
+## Overview 
+1) Understanding Business Problem and asking the right questions 
+2) Data Preprocessing and Feature Engineering 
+3) Building a Machine Learning Model
+4) Model tuning, hyperparameter selection 
+5) Model evaluation
+    i) cross validation 
+6) Exporting the optimal model to a pickle or ONNX file
+7) Deploy model on FLASK app
+8) Set up AWS infrastructure for realtime inference 
+    i) Upload data to AWS S3 bucket 
+
+
+
+
 ### Business Problem
 
 It is imperative for credit card companies and banks to detect fradulent transaction as early as possible. In this work we use the credit card fraud detection data provided by kaggle competion and build a robust model that can capture these transactions. At the end we will deploy this model for realtime fraud detection.  
