@@ -7,10 +7,11 @@ This repository contains end-end machine learning based solution for detecting f
 
 ## Overview 
 - Understanding Business Problem and asking the right questions 
--  Data Preprocessing and Feature Engineering 
--  Building a Machine Learning Model (Training)
--  Model tuning, hyperparameter selection 
--  Model evaluation
+
+- Data Preprocessing and Feature Engineering 
+- Building a Machine Learning Model (Training)
+- Model tuning, hyperparameter selection 
+- Model evaluation
   - Cross validation 
   - Accuracy, Precision, Recall, F1-Score, ROC, Confusion Matrix 
 - Exporting the optimal model to a pickle or ONNX file
