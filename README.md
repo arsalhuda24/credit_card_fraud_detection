@@ -8,16 +8,29 @@ This repository contains end-end machine learning based solution for detecting f
 ## Overview 
 1) Understanding Business Problem and asking the right questions 
 2) Data Preprocessing and Feature Engineering 
-3) Building a Machine Learning Model
+3) Building a Machine Learning Model (Training)
 4) Model tuning, hyperparameter selection 
 5) Model evaluation
-    i) cross validation 
+
+- Cross validation 
+- Accuracy, Precision, Recall, F1-Score, ROC, Confusion Matrix 
+
 6) Exporting the optimal model to a pickle or ONNX file
-7) Deploy model on FLASK app
+7) Deploy model on FLASK app and host it on AWS EC2 instance 
 8) Set up AWS infrastructure for realtime inference 
-    i) Upload data to AWS S3 bucket 
 
+- Upload credit card data to AWS S3 bucket
+- Set up Aws lambda trigger to send data in realtime from S3 
+- Request incoming data from S3 and score predictions  
 
+9) Model Monitoring and Visualization 
+
+- Set up R-Shiny app to visualize predictions
+- Set up dashboard to monitor ML model performance 
+  - Model drift 
+  - Data drift 
+
+10) CI/CD pipeline to retrain model and re-deploy
 
 
 ### Business Problem
