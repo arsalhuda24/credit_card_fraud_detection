@@ -9,11 +9,10 @@ This repository contains end-end machine learning based solution for detecting f
 - Understanding Business Problem and asking the right questions 
 -  Data Preprocessing and Feature Engineering 
 -  Building a Machine Learning Model (Training)
-- Model tuning, hyperparameter selection 
+-  Model tuning, hyperparameter selection 
 -  Model evaluation
-
-- Cross validation 
-- Accuracy, Precision, Recall, F1-Score, ROC, Confusion Matrix 
+  - Cross validation 
+  - Accuracy, Precision, Recall, F1-Score, ROC, Confusion Matrix 
 - Exporting the optimal model to a pickle or ONNX file
 -  Deploy model on FLASK app and host it on AWS EC2 instance 
 -  Set up AWS infrastructure for realtime inference 
